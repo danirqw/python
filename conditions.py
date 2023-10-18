@@ -37,4 +37,6 @@ elif temp < 20 :
 elif temp < 30:
     print("жарко")
 else:
-    print("ооооооооочень жарко")          
+    print("ооооооооочень жарко")
+
+          
