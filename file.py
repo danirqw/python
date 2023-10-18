@@ -23,4 +23,4 @@ second = number//10 % 10
 print(f"сумма цифр{number} = {first + second + third}")
 
 
-print("this is the end")
+print("this is the end ")
