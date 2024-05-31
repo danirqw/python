@@ -14,20 +14,23 @@
 # number = int(input("введите число больше 1 :"))
 # factorial = 1
 # while number > 1 :
-#     factorial *= 5
+#     factorial *= number
 #     number -= 1
 # print(f" факториал вашего числа равен{factorial}")
-# number  = 10
-# while number <= 60:
+number  = 10
+while number <= 60:
+    print(number)
+    number+=10
+# rain = True
+# while rain:
+#     print("я прыгаю по лужам")
+#     stop = input("дождь закончался? (да/нет):")
+#     if stop == "да":
+#         print("прыгаю в бассейн")
+#         break
+# number = 100
+# while  summa <=630000:
 #     print(number)
-#     number+=10
-rain = True
-while rain:
-    print("я прыгаю по лужам")
-    stop = input("дождь закончался? (да/нет):")
-    if stop == "да":
-        print("прыгаю в бассейн")
-        break
-    
+#     number += 1    
     
 
