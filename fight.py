@@ -8,7 +8,7 @@ spells = { # словарь
     "cектум сепра":random.randint(40,45),
     "репаро":random.randint(15,35)
 }
-class character:
+class Character:
     def __init__(self, name:str, power:int, defense:str):
         self.name = name
         self.power = power
@@ -41,7 +41,7 @@ class character:
         
         print(f"состояние у персонажа {self.name} : жизней {self.hp} ловкости: {self.lov} ")
 
-class Player(character):
+class Player(Character):
     pass
     def heal(self):
         self.hp += spells["репаро"]
@@ -54,12 +54,12 @@ def change(char:character):
 player = Player("неподражаемый Данир", power=10,defense="Авада кедавра")
 def game():    
 
-    char1 = character("Гарри Потер", power=8, defense="Авада кедавра")
-    char2 = character("Рон Уизли", power=6, defense=None)
-    char3 = character("Гермион Грайнджер", power=7, defense="cектум сепра")
-    char4 = character("волендеморт",  power=8, defense="Авада кедавра")
-    char5 = character("Белатриса Лестрайндж",  power=7, defense="круциатус")
-    char6 = character("северус снейп",  power=7, defense="cектум сепра")
+    char1 = Character("Гарри Потер", power=8, defense="Авада кедавра")
+    char2 = Character("Рон Уизли", power=6, defense=None)
+    char3 = Character("Гермион Грайнджер", power=7, defense="cектум сепра")
+    char4 = Character("волендеморт",  power=8, defense="Авада кедавра")
+    char5 = Character("Белатриса Лестрайндж",  power=7, defense="круциатус")
+    char6 = Character("северус снейп",  power=7, defense="cектум сепра")
 
     characters1 = [char1, char2, char3,]
     characters2 = [char4, char5, char6]

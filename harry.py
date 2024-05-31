@@ -23,7 +23,7 @@ def change_me(zaklinanie):
     print(f"У вас было {my_hp}")
     my_hp = zaklinanie(my_hp)
     print(f"У вас стало {my_hp}")
-    return malfloy_hp
+    return my_hp
 
 def game():
     print("здраствуйте вы находитесь в игре HARRY POTTER")

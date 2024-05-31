@@ -1,7 +1,7 @@
 import fight
 import number_game
 import magicall_ball
-import textqwest
+import textquest
 import wishlist
 import functions
 import harry
@@ -87,7 +87,7 @@ while True:
         elif choise =="4":
             magicall_ball.game()
         elif choise =="5":
-            textqwest.game()
+            textquest.game()
         elif choise =="6":
             wishlist.game()
         elif choise =="7":

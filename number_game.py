@@ -4,7 +4,7 @@ def game(login:str):
     print("Компьютер загадал число от 1 до 100. Попробуй его угадать!")
     secret_number = random.randint(1, 100)
     tries = 0
-    name = login.capitalize
+    name = login.capitalize()
     while tries <= 10:
         tries +=1
         print(f"попытка №{tries}")
